@@ -19,6 +19,12 @@ public class FirstTest extends WebdriverSettings{
         Assert.assertTrue(title.equals("lifecell. Подключай будущее - 3G+ сеть №1. Cамый быстрый 3G Интернет в Украине!"));
     }
     @Test
+    public void firstTest2() {
+        driver.get("https://my.lifecell.ua/ru/");
+        String title = driver.getTitle();
+        Assert.assertTrue(title.equals("lifecell. Подключай будущее - 3G+ сеть №1. Cамый быстрый 3G Интернет в Украине!"));
+    }
+    @Test
     public void thirdTest() throws IOException {
 
         driver.get("https://my.lifecell.ua/ru/");
