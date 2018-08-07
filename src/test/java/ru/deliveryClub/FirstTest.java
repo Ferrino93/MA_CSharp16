@@ -19,11 +19,6 @@ public class FirstTest extends WebdriverSettings{
         Assert.assertTrue(title.equals("lifecell. Подключай будущее - 3G+ сеть №1. Cамый быстрый 3G Интернет в Украине!"));
     }
     @Test
-    public void secondtest() {
-        driver.get("https://my.lifecell.ua/ru/");
-        driver.findElement(By.cssSelector("a[href*='https://itunes.apple.com']")).click();
-    }
-    @Test
     public void thirdTest() throws IOException {
 
         driver.get("https://my.lifecell.ua/ru/");
